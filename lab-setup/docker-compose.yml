@@ -1,0 +1,9 @@
+# DVWA — single-container lab target (Damn Vulnerable Web Application)
+# Image: community-maintained bundle commonly used for local training labs.
+services:
+  dvwa:
+    image: vulnerables/web-dvwa:latest
+    container_name: dvwa-lab
+    ports:
+      - "4280:80"
+    restart: unless-stopped
