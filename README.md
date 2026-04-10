@@ -58,13 +58,3 @@ python brute_force.py --help
 - [IDOR-style file access](findings/idor.md)  
 
 ---
-
-## Ethics & scope
-
-Use **only** on the local container from this repo (or other systems you **own** and have **written permission** to test). Do not point these techniques at systems without authorization.
-
----
-
-## Why this repo exists
-
-Interview-ready story: I can walk through **exactly** what I sent in Burp, **why** the payload worked at a given DVWA security level, **what** breaks, and **how** I’d remediate it in PHP/Python/services — with a thin layer of automation proving I can script beyond pure point-and-click work.
